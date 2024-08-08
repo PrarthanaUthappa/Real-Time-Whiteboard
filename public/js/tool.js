@@ -1,5 +1,5 @@
 // connect to socket server
-const socket = io.connect("https://localhost:3000");
+const socket = io.connect("https://real-time-whiteboard-6bcn.onrender.com");
 // *********************************Basic Setup
 const board = document.querySelector(".board");
 board.height = window.innerHeight;
